@@ -28,7 +28,7 @@ specified date range and search term, returning a tibble containing
 details about each article.
 
 ``` r
-library(NYT)
+library(NewsTimeSeries)
 
 # Example usage of nyt_timeseries()
 nyt_timeseries(api_key = "<your_api_key>", query = "search_term",
@@ -48,7 +48,7 @@ For example, if you have already collected some data and need to
 continue from a specific point, you can use:
 
 ``` r
-library(NYT)
+library(NewsTimeSeries)
 
 # Continuing the article collection from a specific point
 nyt_timeseries(api_key = "<your_api_key>", query = 'search_term',
